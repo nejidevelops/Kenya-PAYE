@@ -31,3 +31,12 @@ body{
 .projectIt .header h1{
     color: #de1432;
 }
+
+.projectIt .formYetu{
+    width: auto;
+    position: relative;
+}
+
+.projectIt .formYetu label{
+    margin-right: 60px;
+}
