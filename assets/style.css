@@ -75,3 +75,23 @@ body{
     margin-top: 20px;
     margin-left: 25%;
 }
+
+.output{
+    
+}
+
+.row-output:first-child{
+    border-top: 2px solid black ;
+
+}
+.row-output{
+    display: grid;
+    grid-template-columns: 200px 250px ;
+    border: 2px solid dodgerblue;
+    border-top: none;
+    height: 50px;
+
+}
+.column-2{
+    border-left: 2px solid black;
+}
