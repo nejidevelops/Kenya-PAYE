@@ -40,3 +40,7 @@ body{
 .projectIt .formYetu label{
     margin-right: 60px;
 }
+
+.projectIt .formYetu label, input{
+    margin-top: 20px;
+}
