@@ -77,11 +77,11 @@ body{
 }
 
 .output{
-    
+    margin-top: 50px;
 }
 
 .row-output:first-child{
-    border-top: 2px solid black ;
+    border-top: 2px solid dodgerblue;
 
 }
 .row-output{
@@ -93,5 +93,5 @@ body{
 
 }
 .column-2{
-    border-left: 2px solid black;
+    border-left: 2px solid dodgerblue;
 }
