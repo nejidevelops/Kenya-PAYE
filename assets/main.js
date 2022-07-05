@@ -9,10 +9,46 @@ let nssfN = document.getElementById("oldRates");
 let calculate = document.getElementById("calculateTax");
 let calculateTax;
 let incomeTax;
+let salari = salary.value
 
 calculate.addEventListener('click',)
 
-function suming(){
-    let salaries = salary.value
-    
+function isYorM(){
+
+}
+ 
+function annualTax(){
+    if (salari <= 147580){
+        return salari * 0.1
+    }
+    else if (salari <= 286623){
+        return salari * 0.15
+    }
+    else if (salari <= 425666){
+        return salari * 0.2
+    }
+    else if (salari <= 564709){
+        return salari * 0.25
+    }
+    else{
+        return salari * 0.3
+    }
+}
+
+function monthTax(){
+    if (salari <= 147580){
+        return (salari * 0.1)/12
+    }
+    else if (salari <= 286623){
+        return salari * 0.15
+    }
+    else if (salari <= 425666){
+        return salari * 0.2
+    }
+    else if (salari <= 564709){
+        return salari * 0.25
+    }
+    else{
+        return salari * 0.3
+    }
 }
