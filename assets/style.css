@@ -17,3 +17,17 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.projectIt{
+    width: auto;
+    position: relative;
+} 
+
+.projectIt .header{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projectIt .header h1{
+    color: #de1432;
+}
