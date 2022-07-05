@@ -69,3 +69,9 @@ body{
     margin-left: 155px;
 }
 
+.projectIt .formYetu button{
+    width: 300px;
+    background: #121212;
+    margin-top: 20px;
+    margin-left: 25%;
+}
