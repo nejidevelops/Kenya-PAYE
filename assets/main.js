@@ -7,3 +7,6 @@ let nhifN = document.getElementById("deductN")
 let nssfY = document.getElementById("newRates")
 let nssfN = document.getElementById("oldRates")
 let calculate = document.getElementById("calculateTax")
+
+calculate.addEventListener('click',)
+
