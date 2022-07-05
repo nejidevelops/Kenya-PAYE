@@ -40,15 +40,15 @@ function monthTax(){
         return (salari * 0.1)/12
     }
     else if (salari <= 286623){
-        return salari * 0.15
+        return (salari * 0.15) /12
     }
     else if (salari <= 425666){
-        return salari * 0.2
+        return (salari * 0.2) /12
     }
     else if (salari <= 564709){
-        return salari * 0.25
+        return( salari * 0.25) / 12
     }
     else{
-        return salari * 0.3
+        return (salari * 0.3) / 12
     }
 }
