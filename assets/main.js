@@ -8,6 +8,11 @@ let nssfY = document.getElementById("newRates");
 let nssfN = document.getElementById("oldRates");
 let calculate = document.getElementById("calculateTax");
 let calculateTax;
+let incomeTax;
 
 calculate.addEventListener('click',)
 
+function suming(){
+    let salaries = salary.value
+    
+}
