@@ -13,16 +13,13 @@ let salari = salary.value
 
 calculate.addEventListener('click',)
 
-function isYorM(){
-
-}
  
 function annualTax(){
     if (salari <= 147580){
-        return salari * 0.1
+        return( salari * 0.1)
     }
     else if (salari <= 286623){
-        return salari * 0.15
+        return (salari * 0.15)
     }
     else if (salari <= 425666){
         return salari * 0.2
@@ -37,18 +34,18 @@ function annualTax(){
 
 function monthTax(){
     if (salari <= 147580){
-        return (salari * 0.1)/12
+        return (salari * 0.1)
     }
     else if (salari <= 286623){
-        return (salari * 0.15) /12
+        return (salari * 0.15)
     }
     else if (salari <= 425666){
-        return (salari * 0.2) /12
+        return (salari * 0.2)
     }
     else if (salari <= 564709){
-        return( salari * 0.25) / 12
+        return( salari * 0.25)
     }
     else{
-        return (salari * 0.3) / 12
+        return (salari * 0.3)
     }
 }
