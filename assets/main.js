@@ -7,9 +7,11 @@ let nhifN = document.getElementById("deductN");
 let nssfY = document.getElementById("newRates");
 let nssfN = document.getElementById("oldRates");
 let calculate = document.getElementById("calculateTax");
-let incP = document.getElementById("incB")
-let dedP = document.getElementById("dedNS")
-
+let incP = document.getElementById("incB");
+let dedP = document.getElementById("dedNS");
+let incA = document.getElementById("incAD");
+let benIK = document.getElementById("benK");
+let taxIn = document.getElementById("taxI")
 let calculateTax;
 let incomeTax;
 let salari = salary.value
