@@ -16,7 +16,9 @@ let taxT = document.getElementById("taxTI");
 let perso = document.getElementById("persR");
 let taxNT = document.getElementById("taxN");
 let payE = document.getElementById("paye");
-let chargie = document.getElementById("chargI")
+let chargie = document.getElementById("chargI");
+let nhifCon = document.getElementById("nhifC");
+let netPay = document.getElementById("netP")
 let calculateTax;
 let incomeTax;
 let salari = salary.value
