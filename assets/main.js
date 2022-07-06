@@ -114,4 +114,7 @@ function nhifCont(){
     else if(salary > 100000){
         return nhifY.value = 1700
     }
+    else{
+        return nhifY.value = 500
+    }
 }
