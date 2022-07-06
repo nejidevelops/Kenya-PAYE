@@ -90,8 +90,8 @@ function nhifCont(){
     else if(salary <= 39999){
         return nhifY.value = 950
     }
-    else if(salary <= 7999){
-        return nhifY.value = 300
+    else if(salary <= 44999){
+        return nhifY.value = 1000
     }
     else if(salary <= 7999){
         return nhifY.value = 300
