@@ -61,3 +61,54 @@ function monthTax(){
         return (salari * 0.3)
     }
 }
+
+function nhifCont(){
+    if(salary <= 5999){
+        return nhifY.value = 150
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+    else if(salary <= 7999){
+        return nhifY.value = 300
+    }
+}
