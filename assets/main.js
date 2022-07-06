@@ -19,11 +19,14 @@ let payE = document.getElementById("paye");
 let chargie = document.getElementById("chargI");
 let nhifCon = document.getElementById("nhifC");
 let netPay = document.getElementById("netP")
+let 
 let calculateTax;
 let incomeTax;
 let salari = salary.value
 
-calculate.addEventListener('click',)
+calculate.addEventListener('click',(e)=>{
+    e.preventDefault()
+})
 
  
 function annualTax(){
@@ -63,55 +66,55 @@ function monthTax(){
 }
 
 function nhifCont(){
-    if(salary <= 5999){
+    if(salari <= 5999){
         return nhifY.value = 150
     }
-    else if(salary <= 7999){
+    else if(salari <= 7999){
         return nhifY.value = 300
     }
-    else if(salary <= 11999){
+    else if(salari <= 11999){
         return nhifY.value = 400
     }
-    else if(salary <= 14999){
+    else if(salari <= 14999){
         return nhifY.value = 500
     }
-    else if(salary <= 19999){
+    else if(salari <= 19999){
         return nhifY.value = 600
     }
-    else if(salary <= 24999){
+    else if(salari <= 24999){
         return nhifY.value = 750
     }
-    else if(salary <= 29999){
+    else if(salari <= 29999){
         return nhifY.value = 850
     }
-    else if(salary <= 34999){
+    else if(salari <= 34999){
         return nhifY.value = 900
     }
-    else if(salary <= 39999){
+    else if(salari <= 39999){
         return nhifY.value = 950
     }
-    else if(salary <= 44999){
+    else if(salari <= 44999){
         return nhifY.value = 1000
     }
-    else if(salary <= 49999){
+    else if(salari <= 49999){
         return nhifY.value = 1100
     }
-    else if(salary <= 59999){
+    else if(salari <= 59999){
         return nhifY.value = 1200
     }
-    else if(salary <= 69999){
+    else if(salari <= 69999){
         return nhifY.value = 1300
     }
-    else if(salary <= 79999){
+    else if(salari <= 79999){
         return nhifY.value = 1400
     }
-    else if(salary <= 89999){
+    else if(salari <= 89999){
         return nhifY.value = 1500
     }
-    else if(salary <= 99999){
+    else if(salari <= 99999){
         return nhifY.value = 1600
     }
-    else if(salary > 100000){
+    else if(salari > 100000){
         return nhifY.value = 1700
     }
     else{
